@@ -80,7 +80,18 @@ Deque:[10000, 20000, 30000]<br>
 - 删除排序数组中的重复项（Facebook、字节跳动、微软在半年内面试中考过）
 - 旋转数组（微软、亚马逊、PayPal 在半年内面试中考过）
 - [合并两个有序链表（亚马逊、字节跳动在半年内面试常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+    * [迭代法](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/MergeTwoLists.java)
+        + 边界条件判断
+        + 技巧，使用头结点和临时节点，头结点链接临时节点
+        + 逐个比较，放进临时节点链表里
+        + 输出头结点的后一个节点
+    * 递归法
+
 - [合并两个有序数组（Facebook 在半年内面试常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+    * [链接](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/MergeTwoArrays.java)     
 - [两数之和（亚马逊、字节跳动、谷歌、Facebook、苹果、微软在半年内面试中高频常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+    * [链接](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/TwoSum.java) 
 - [移动零（Facebook、亚马逊、苹果在半年内面试中考过）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+    * [链接](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/MoveZeros.java) 
 - [加一（谷歌、字节跳动、Facebook 在半年内面试中考过）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+    * [链接](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/PlusOne.java) 

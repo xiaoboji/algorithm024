@@ -21,10 +21,11 @@
 - [加一（谷歌、字节跳动、Facebook 在半年内面试中考过）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
 
 中等：
--[x] [设计循环双端队列（Facebook 在 1 年内面试中考过）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+- [设计循环双端队列（Facebook 在 1 年内面试中考过）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
 
 困难：
--[ ] 接雨水（亚马逊、字节跳动、高盛集团、Facebook 在半年内面试常考）
+
+- 接雨水（亚马逊、字节跳动、高盛集团、Facebook 在半年内面试常考）
 
 ### 四、心得及小结
 心得
