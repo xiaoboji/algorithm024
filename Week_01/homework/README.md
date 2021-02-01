@@ -1,4 +1,4 @@
-- [用 add first 或 add last 这套新的 API 改写 Deque 的代码](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+###  [用 add first 或 add last 这套新的 API 改写 Deque 的代码](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
 ```java
 public class DequeNewApiDemo {
     public static void main(String[] args){
@@ -30,13 +30,15 @@ public class DequeNewApiDemo {
     }
 }
 ```
-this program output:
+output:
+
 ```
 Deque:[10000, 20000, 30000]<br>
 [D, A, E, B, C]<br>
 [A]<br>
 ```
-- [分析 Queue 和 Priority Queue 的源码](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+
+### [分析 Queue 和 Priority Queue 的源码](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
     * 继承关系
    
         |-Iterable(Interface)<br>
@@ -77,9 +79,9 @@ Deque:[10000, 20000, 30000]<br>
             + [Java8 PriorityQueue 源码阅读](https://blog.csdn.net/codejas/article/details/85144502)  
             + [Queue Interface In Java](https://www.geeksforgeeks.org/queue-interface-java/)
         
-- 删除排序数组中的重复项（Facebook、字节跳动、微软在半年内面试中考过）
-- 旋转数组（微软、亚马逊、PayPal 在半年内面试中考过）
-- [合并两个有序链表（亚马逊、字节跳动在半年内面试常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+###  删除排序数组中的重复项（Facebook、字节跳动、微软在半年内面试中考过）
+###  旋转数组（微软、亚马逊、PayPal 在半年内面试中考过）
+###  [合并两个有序链表（亚马逊、字节跳动在半年内面试常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
     * [迭代法](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/MergeTwoLists.java)
         + 边界条件判断
         + 技巧，使用头结点和临时节点，头结点链接临时节点
@@ -87,11 +89,83 @@ Deque:[10000, 20000, 30000]<br>
         + 输出头结点的后一个节点
     * 递归法
 
-- [合并两个有序数组（Facebook 在半年内面试常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+### [合并两个有序数组（Facebook 在半年内面试常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
     * [链接](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/MergeTwoArrays.java)     
-- [两数之和（亚马逊、字节跳动、谷歌、Facebook、苹果、微软在半年内面试中高频常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+###  [两数之和（亚马逊、字节跳动、谷歌、Facebook、苹果、微软在半年内面试中高频常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
     * [链接](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/TwoSum.java) 
-- [移动零（Facebook、亚马逊、苹果在半年内面试中考过）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
-    * [链接](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/MoveZeros.java) 
-- [加一（谷歌、字节跳动、Facebook 在半年内面试中考过）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
-    * [链接](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/PlusOne.java) 
+###  [移动零（Facebook、亚马逊、苹果在半年内面试中考过）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+    
+- [代码链接](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/MoveZeros.java) 
+- 方法一
+    * 类似于选择排序，暴力解法
+    * 每次都选择前面的一个0和后面的一个非0进行交换
+ ```java
+    class Solution {
+        public void moveZeroes(int[] nums) {
+            int len = nums.length;
+            // 暴力循环法，类似于选择排序
+            for (int i = 0; i < len; i++){
+                for (int j = i; j < len ; j++){
+                    if(nums[i] == 0 &&  nums[j] != 0){
+                        int temp = nums[i];
+                        nums[i] = nums[j];
+                        nums[j] = temp;
+                    }
+                }
+            }
+        }
+    }
+```    
+- 方法二
+    * 类似于快排
+    * 把非0的逐个找出按顺序放在最前面
+    * 后面的逐个置零
+        
+```java
+    class Solution {
+        public void moveZeroes(int[] nums) {
+            int len = nums.length;
+            // 类似于快排，把非0逐个放左边
+            int j = 0;
+            for (int i = 0; i < len; i++){
+                if(nums[i] != 0){
+                    nums[j] = nums[i];
+                    j++;
+                }
+            }
+            // 后面的逐个置0
+            for (;j < len; j++ ){
+                nums[j] = 0;     
+            }
+        }
+    }
+```    
+
+### [加一（谷歌、字节跳动、Facebook 在半年内面试中考过）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
+- [代码链接](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/PlusOne.java) 
+- 思路(常规递归)
+    * 分析得到，有两种情况，9和非9
+    * 从最后一位循环，非9的话，直接+1返回
+    * 否则进位
+    * 单独处理一下999这种情况
+    * 循环一遍，时间复杂度O(n),空间复杂度O(1)
+
+```java
+public class Solution {
+  public int[] plusOne(int[] digits) {
+    // 两种情况9和非9，非9直接返回，9的话需要进位
+    for (int i = 0; i < digits.length; i++){
+      if(digits[digits.length - 1 - i] != 9){
+        digits[digits.length - 1 - i]++;
+        return digits;
+      } else {
+        digits[digits.length - 1 - i] = 0;
+      }
+    }
+    // 处理999的情况
+    int[] result = new int[digits.length + 1];
+    result[0] = 1;
+    return result;
+  }
+}
+```

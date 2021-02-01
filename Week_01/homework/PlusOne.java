@@ -8,23 +8,19 @@ package Week_01.homework;
  **/
 public class PlusOne {
   public int[] plusOne(int[] digits) {
-    //找到重复单元 +1 或者进一位
-    for (int i = digits.length -1 ; i >= 0; i--){
-      if(digits[i] < 9 ){
-        digits[i] = digits[i] + 1;
-      } else {
-        digits[i] = 0;
-      }
-
-      if(digits[i] != 0){
+    // 两种情况9和非9，非9直接返回，9的话需要进位
+    for (int i = 0; i < digits.length; i++){
+      if(digits[digits.length - 1 - i] != 9){
+        digits[digits.length - 1 - i]++;
         return digits;
+      } else {
+        digits[digits.length - 1 - i] = 0;
       }
     }
-    //处理999这种特殊情况
-    if(digits[0] == 0){
-      digits = new int[digits.length + 1];
-      digits[0] = 1;
-    }
-    return digits;
+
+    // 处理999的情况
+    int[] result = new int[digits.length + 1];
+    result[0] = 1;
+    return result;
   }
 }
