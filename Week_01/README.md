@@ -15,7 +15,7 @@
 - [删除排序数组中的重复项（Facebook、字节跳动、微软在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_016_26_remove_duplicates_from_sorted_array)
 - 旋转数组（微软、亚马逊、PayPal 在半年内面试中考过）
 - [合并两个有序链表（亚马逊、字节跳动在半年内面试常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/MergeTwoLists.java)
-- [合并两个有序数组（Facebook 在半年内面试常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/MergeArrays.java)
+- [合并两个有序数组（Facebook 在半年内面试常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/MergeTwoArrays.java)
 - [两数之和（亚马逊、字节跳动、谷歌、Facebook、苹果、微软在半年内面试中高频常考）](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework/TwoSum.java)
 - [移动零（Facebook、亚马逊、苹果在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_005_283_move_zeros)
 - [加一（谷歌、字节跳动、Facebook 在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_002_66_plus_one)
