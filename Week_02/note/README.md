@@ -57,11 +57,51 @@ MD5("jiajia") = cd611a31ea969b908932d44d126d195b
         + set.has(value)
         
 ### 二、树、二叉树、二叉搜索树
+- **树**
+
+树和图都是二维的数据结构，二者的区别，是图有环，树没有环，树可以解决在单链表中查询过慢的问题。
+
+Linked List是特殊化的Tree，Tree是特殊化的Graph
+
+树的定义
+```java
+public class TreeNode {
+    public int val;
+    public TreeNode left;
+    public TreeNode right;
+    TreeNode() {}
+    TreeNode(int val) { this.val = val; }
+    TreeNode(int val, TreeNode left, TreeNode right) {
+        this.val = val;
+        this.left = left;
+        this.right = right;
+    }
+}
+```
+
+节点的高度(Height) = 节点到叶子节点的最长路径(边数)<br>
+节点的深度深度（Depth）= 根节点到这个节点所经历的边的个数<br>
+节点的层树（Level) = 节点的深度 + 1<br>
+树的高度 = 根节点的高速<br>
+
+![Alt](https://github.com/xiaoboji/algorithm024/tree/main/Week_02/pic/50f89510ad1f7570791dd12f4e9adeb4.jpg)
+
+- **树的遍历**
+    * 前序遍历：跟-左-右
+    * 中序遍历：左-跟-右
+    * 后序遍历：左-右-跟
+- **二叉树**
+
+- **二叉搜索树**
+
 
 
 ### 三、堆、二叉堆
 
 
 ### 四、图
+
+
+### 参考链接
 
 
