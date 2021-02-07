@@ -1,8 +1,7 @@
 本周学习了哈希、树、堆、图
 
 # 一、学习笔记
-
-
+[哈希、树、堆和图基础知识](https://github.com/xiaoboji/algorithm024/tree/main/Week_02/note)
 
 # 二、本周作业
 
