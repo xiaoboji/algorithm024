@@ -1,12 +1,12 @@
 本周学习了哈希、树、堆、图
 
-# 一、学习笔记
+#### 一、学习笔记
 [哈希、树、堆和图基础知识](https://github.com/xiaoboji/algorithm024/tree/main/Week_02/note)
 
-# 二、本周作业
+#### 二、本周作业
 
 简单：
-- [写一个关于HashMap的小总结]
+- [写一个关于HashMap的小总结](https://github.com/xiaoboji/algorithm024/tree/main/Week_02/homework/HashMap.md)
 - [有效的字母异位词（亚马逊、Facebook、谷歌在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_019_242_valid_anagram)
 - [两数之和（非常多）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_003_1_two_sum)
 - [N叉树的前序遍历（亚马逊在半年内面试中考过）]
@@ -20,10 +20,10 @@
 - [丑数（字节跳动在半年内面试中考过）]
 - [前K个高频元素（亚马逊在半年内面试中常考）]
 
-# 三、心得及小结
+#### 三、心得及小结
 
 - 本周可以沉淀的代码
 
 - 本周学习心得
 
-# 四、疑问汇总
+#### 四、疑问汇总
