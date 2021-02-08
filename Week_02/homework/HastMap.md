@@ -1,4 +1,4 @@
-HashMap的学习笔记
+HashMap的学习笔记,总结一下，顺便学学英语
 
 ---
 #### 一、HashMap简介
@@ -12,7 +12,7 @@ HashMap的学习笔记
 
 > This implementation provides constant-time performance for the basic operations (get and put), assuming the hash function disperses the elements properly among the buckets. Iteration over collection views requires time proportional to the "capacity" of the HashMap instance (the number of buckets) plus its size (the number of key-value mappings). Thus, it's very important not to set the initial capacity too high (or the load factor too low) if iteration performance is important.
 
-如果hash函数保证了元素均匀的分散，HashMap的常用操作(get和put)可以达到常数时间的性能，
+如果hash函数保证了元素均匀的分散，HashMap的常用操作(get和put)可以达到常数时间的性能，对集合进行迭代操作所需的时间，和HashMap实例的容量(桶的数量)以及大小(键值对数)成比例。所以，如果对迭代性能要求比较高的话，初始容量不要太高，装载因子不要太低。
 
 > An instance of HashMap has two parameters that affect its performance: initial capacity and load factor. The capacity is the number of buckets in the hash table, and the initial capacity is simply the capacity at the time the hash table is created. The load factor is a measure of how full the hash table is allowed to get before its capacity is automatically increased. When the number of entries in the hash table exceeds the product of the load factor and the current capacity, the hash table is rehashed (that is, internal data structures are rebuilt) so that the hash table has approximately twice the number of buckets.
 
