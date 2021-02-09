@@ -1,10 +1,10 @@
-HashMap的学习笔记,总结一下，顺便学学英语
+HashMap的学习笔记, 总结一下，顺便学学英语
 
 ---
 #### 一、HashMap简介
 > public class HashMap<K,V> extends AbstractMap<K,V> implements Map<K,V>, Cloneable, Serializable
 
-集成了AbstractMap抽象类，实现了Map，Cloneable,Serializable接口
+继承了AbstractMap抽象类，实现了Map,Cloneable,Serializable接口
 
 > Hash table based implementation of the Map interface. This implementation provides all of the optional map operations, and permits null values and the null key. (The HashMap class is roughly equivalent to Hashtable, except that it is unsynchronized and permits nulls.) This class makes no guarantees as to the order of the map; in particular, it does not guarantee that the order will remain constant over time.
 
@@ -39,7 +39,7 @@ HashMap的所有集合视图方法返回的迭代器都满足fail-fast机制，�
 
 > Note that the fail-fast behavior of an iterator cannot be guaranteed as it is, generally speaking, impossible to make any hard guarantees in the presence of unsynchronized concurrent modification. Fail-fast iterators throw ConcurrentModificationException on a best-effort basis. Therefore, it would be wrong to write a program that depended on this exception for its correctness: the fail-fast behavior of iterators should be used only to detect bugs.
 
-需要注意的是，fail-fast机制不能够保证没有问题，通常来说，也不可能完全保证对于一个不同步的去做非同步的并发修改，fail-fast迭代器尽最大努力的去抛出ConcurrentModificaitonException。因此，写程序去依赖这个异常是不低的，这个fail-fast机制应该仅仅用来解决bug。
+需要注意的是，fail-fast机制不能够保证没有问题，通常来说，也不可能完全保证对于一个不同步的去做非同步的并发修改，fail-fast迭代器尽最大努力的去抛出ConcurrentModificaitonException。因此，写程序去依赖这个异常是不对的，这个fail-fast机制应该仅仅用来解决bug。
 
 #### 二、HashMap API详解
 返回类型   | 方法和描述
