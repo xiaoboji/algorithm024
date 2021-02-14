@@ -1,7 +1,7 @@
 #### 一、学习笔记
 - [递归](https://github.com/xiaoboji/algorithm024/tree/main/Week_03/note/Recursion.md)
 - [分治](https://github.com/xiaoboji/algorithm024/tree/main/Week_03/note/DivideAndConquer.md)
-- [回溯](https://github.com/xiaoboji/algorithm024/tree/main/Week_03/note/Recursion.md)
+- [回溯](https://github.com/xiaoboji/algorithm024/tree/main/Week_03/note/Backtracking.md)
 #### 二、本周作业
 
 - [二叉树的最近公共祖先（Facebook 在半年内面试常考）]
