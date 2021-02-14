@@ -5,10 +5,7 @@
 ### 一、学习笔记
 [第一周学习笔记](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note)
 
-### 二、练习汇总
-[leetcode-做题记录(建设中)](https://github.com/xiaoboji/j-leetcode)
-
-### 三、本周作业
+### 二、本周作业
 简单：
 - [用 add first 或 add last 这套新的 API 改写 Deque 的代码](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
 - [分析 Queue 和 Priority Queue 的源码](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/homework)
@@ -21,10 +18,22 @@
 - [加一（谷歌、字节跳动、Facebook 在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_002_66_plus_one)
 
 中等：
-- 设计循环双端队列（Facebook 在 1 年内面试中考过）
+- [设计循环双端队列（Facebook 在 1 年内面试中考过）]
 
 困难：
-- 接雨水（亚马逊、字节跳动、高盛集团、Facebook 在半年内面试常考）
+- [接雨水（亚马逊、字节跳动、高盛集团、Facebook 在半年内面试常考）]
+
+### 三、训练场练习
+- 数组相关：
+    * [选择餐馆]
+- 链表相关：
+    * [合并两个有序链表]
+- 栈相关：
+    * [视野总和]
+    * [每日在线用户量]
+- 队列相关：
+    * [数据流查询]
+
 
 ### 四、心得及小结
 心得
@@ -40,3 +49,7 @@
 
 - 对于链表的指针没有理解透彻，时长犯晕 pre = pre.next、pre.next = pre.next.next？
 - 很多题都有很多种解法，对于参考来说，我们需要看几种解法就够了？
+
+
+### 六、练习汇总
+[leetcode-做题记录](https://github.com/xiaoboji/j-leetcode)
