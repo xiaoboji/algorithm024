@@ -3,11 +3,11 @@
 ---
 
 ### 一、学习笔记
-[数组](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/array.md)
-[链表](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/list.md)
-[跳表](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/skiplist.md)
-[栈](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/stack.md)
-[队列](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/queue.md)
+- [数组](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/array.md)
+- [链表](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/list.md)
+- [跳表](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/skiplist.md)
+- [栈](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/stack.md)
+- [队列](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/queue.md)
 
 
 ### 二、本周作业
