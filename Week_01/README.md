@@ -3,7 +3,12 @@
 ---
 
 ### 一、学习笔记
-[第一周学习笔记](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note)
+[数组](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/array.md)
+[链表](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/list.md)
+[跳表](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/skiplist.md)
+[栈](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/stack.md)
+[队列](https://github.com/xiaoboji/algorithm024/blob/main/Week_01/note/queue.md)
+
 
 ### 二、本周作业
 简单：
@@ -49,7 +54,6 @@
 
 - 对于链表的指针没有理解透彻，时长犯晕 pre = pre.next、pre.next = pre.next.next？
 - 很多题都有很多种解法，对于参考来说，我们需要看几种解法就够了？
-
 
 ### 六、练习汇总
 [leetcode-做题记录](https://github.com/xiaoboji/j-leetcode)
