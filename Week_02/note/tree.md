@@ -142,8 +142,7 @@ public void delete(int data) {
 - **时间复杂度分析**
 
 插入：O(logN)<br>
-删除：O(logN)<br>
-查找：O(logN)<br>
+删除：O(logN)<br> 
 
 - **红黑树**
     * 红黑树中的节点，一类被标记为黑色，一类被标记为红色。除此之外，一棵红黑树还需要满足这样几个要求：
@@ -151,9 +150,8 @@ public void delete(int data) {
     * 每个叶子节点都是黑色的空节点，也就是说，叶子节点不存储数据
     * 任何相邻的节点都不能同时为红色，也就是说，红色节点是被黑色节点隔开的
     * 每个节点，从改节点到达其可达节点的所有路径，都包含相同数目的黑色节点
-   
 
 - 参考链接
     * [二叉搜索树 Demo](https://visualgo.net/zh/bst?slide=1)
     * [数据结构预算法之美](https://time.geekbang.org/column/article/68334?utm_source=web&utm_medium=pinpaizhuanqu&utm_campaign=baidu&utm_term=pinpaizhuanqu&utm_content=0427)
-
+    * [二叉搜索树demo](https://visualgo.net/zh/bst)

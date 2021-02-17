@@ -37,8 +37,76 @@
 #### 四、心得及小结
 
 - 本周可以沉淀的代码
+    * 二叉树遍历(递归)
+    ```
+    // 前序遍历核心代码
+    public void preorder(TreeNode root, List<Integer> list) {
+        if (root == null) {
+            return;
+        }
+        list.add(root.val);
+        preorder(root.left, list);
+        preorder(root.right, list);
+    }
+    // 中序遍历核心代码
+    public void inorder(TreeNode root, List<Integer> list) {
+        if (root == null) {
+            return;
+        }
+        inorder(root.left, list);
+        list.add(root.val);
+        inorder(root.right, list);
+    }
+    // 后续遍历核心代码
+    public void postorder(TreeNode root, List<Integer> list) {
+        if (root == null) {
+            return;
+        }
+        postorder(root.left, list);
+        postorder(root.right, list);
+        list.add(root.val);
+    }
+    ```
+    * 二叉树遍历(迭代)
+    ```
+    // 前序遍历核心代码
+    while(root != null || !stack.isEmpty()){
+        //go left down to the ground
+        while(root != null){
+          res.add(root.val);
+          stack.push(root);
+          root = root.left;
+        }
+        
+        //if we reach to the leaf, go back to the parent right, and repeat the go left down.
+        TreeNode cur = stack.pop();
+        root = cur.right;
+    }
+    // 中序遍历核心代码
+    while (root != null || !stack.isEmpty()) {
+        while (root != null) {
+            stack.push(root);
+            root = root.left;
+        }
+        root = stack.pop();
+        res.add(root.val);
+        root = root.right;
+    }
+    // 后续遍历核心代码，前序遍历的一个逆序
+    while(root != null || !stack.isEmpty()){
+        while(root != null){
+            res.add(root.val);
+            stack.push(root);
+            root = root.right;
+        }
 
+        TreeNode cur = stack.pop();
+        root = cur.left;
+    }
+    Collections.reverse(res);
+    ```  
 - 本周学习心得
+
 
 #### 五、疑问汇总
 
