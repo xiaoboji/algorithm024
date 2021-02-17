@@ -20,7 +20,7 @@
 - [二叉树的中序遍历（亚马逊、字节跳动、微软在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_021_94_binary_tree_inorder_traversal)
 - [二叉树的前序遍历（字节跳动、谷歌、腾讯在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_022_144_binary_tree_preorder_traversal)
 - [N叉树的层序遍历（亚马逊在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_025_429_n_ary_tree_level_traversal)
-- [丑数（字节跳动在半年内面试中考过）]
+- [丑数（字节跳动在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_026_49_chou_shu_lcof)
 - [前K个高频元素（亚马逊在半年内面试中常考）]
 
 #### 三、训练场相关
@@ -105,8 +105,8 @@
     }
     Collections.reverse(res);
     ```  
+  
 - 本周学习心得
-
 
 #### 五、疑问汇总
 
