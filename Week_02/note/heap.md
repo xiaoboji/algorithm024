@@ -167,4 +167,4 @@ public static void sort(int[] a, int n) {
 - PriorityQueue
 
 7. 参考链接
-[堆和堆排序](https://time.geekbang.org/column/article/69913?utm_source=web&utm_medium=pinpaizhuanqu&utm_campaign=baidu&utm_term=pinpaizhuanqu&utm_content=0427)
+- [堆和堆排序](https://time.geekbang.org/column/article/69913?utm_source=web&utm_medium=pinpaizhuanqu&utm_campaign=baidu&utm_term=pinpaizhuanqu&utm_content=0427)
