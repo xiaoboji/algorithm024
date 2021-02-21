@@ -3,8 +3,9 @@
 
 
 学习记录
-- [数组、链表、跳表、栈、队列](https://github.com/xiaoboji/algorithm024/tree/main/Week_01)
-- [哈希、树、堆、图](https://github.com/xiaoboji/algorithm024/tree/main/Week_02)
+- [Week01-数组、链表、跳表、栈、队列](https://github.com/xiaoboji/algorithm024/tree/main/Week_01)
+- [Week02-哈希、树、堆、图](https://github.com/xiaoboji/algorithm024/tree/main/Week_02)
+- [Week03-递归、分治、回溯](https://github.com/xiaoboji/algorithm024/tree/main/Week_03)
 
 学习要点
 - 五毒神掌，五遍刷题法，强调练习算法题要过遍数，算法题不仅是做一遍通过而已，而是要通过刻意练习达到对算法熟练的效果。
