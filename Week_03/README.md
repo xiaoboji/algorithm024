@@ -7,8 +7,8 @@
 - [二叉树的最近公共祖先（Facebook 在半年内面试常考）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_036_236_lowest_common_ancestor_of_a_binary_tree)
 - [从前序与中序遍历序列构造二叉树（字节跳动、亚马逊、微软在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_037_105_onstruct_binary_tree_from_preorder_and_inorder_traversal)
 - [组合（微软、亚马逊、谷歌在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_038_77_combinations)
-- [全排列（字节跳动在半年内面试常考）]
-- [全排列 II （亚马逊、字节跳动、Facebook 在半年内面试中考过）]
+- [全排列（字节跳动在半年内面试常考）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_039_46_permutations)
+- [全排列 II （亚马逊、字节跳动、Facebook 在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_040_47_permutations_ii)
 
 #### 三、训练场练习
 - 递归相关：
@@ -20,11 +20,10 @@
 
 - 本周可以沉淀的代码
 
+详见学习笔记
+
 - 本周学习心得
 
+递归、回溯有点难以理解，都是参考别人的实现
+
 #### 五、疑问汇总
-
-
-#### 六、练习汇总
-
-[leetcode-做题记录](https://github.com/xiaoboji/j-leetcode)
