@@ -1,29 +1,44 @@
 #### 一、学习笔记
-- [深度+广度优先遍历](https://github.com/xiaoboji/algorithm024/tree/main/Week_04/note/dfs_bfs.md)
-- [贪心算法](https://github.com/xiaoboji/algorithm024/tree/main/Week_03/note/DivideAndConquer.md)
-- [二分查找](https://github.com/xiaoboji/algorithm024/tree/main/Week_03/note/Backtracking.md)
+- [深度+广度优先遍历](https://github.com/xiaoboji/algorithm024/tree/main/Week_04/note/DfsBfs.md)
+- [贪心算法](https://github.com/xiaoboji/algorithm024/tree/main/Week_03/note/Greedy.md)
+- [二分查找](https://github.com/xiaoboji/algorithm024/tree/main/Week_03/note/BinarySearch.md)
 #### 二、本周作业
 
-- [二叉树的最近公共祖先（Facebook 在半年内面试常考）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_036_236_lowest_common_ancestor_of_a_binary_tree)
-- [从前序与中序遍历序列构造二叉树（字节跳动、亚马逊、微软在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_037_105_onstruct_binary_tree_from_preorder_and_inorder_traversal)
-- [组合（微软、亚马逊、谷歌在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_038_77_combinations)
-- [全排列（字节跳动在半年内面试常考）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_039_46_permutations)
-- [全排列 II （亚马逊、字节跳动、Facebook 在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problems/no_040_47_permutations_ii)
+- 简单：
+  * 柠檬水找零（亚马逊在半年内面试中考过）
+  * 买卖股票的最佳时机 II （亚马逊、字节跳动、微软在半年内面试中考过）
+  * 分发饼干（亚马逊在半年内面试中考过）
+  * 模拟行走机器人
+  * 使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方
+- 中等：
+  * 单词接龙（亚马逊在半年内面试常考）
+  * 岛屿数量（近半年内，亚马逊在面试中考查此题达到 350 次）
+  * 扫雷游戏（亚马逊、Facebook 在半年内面试中考过）
+  * 跳跃游戏 （亚马逊、华为、Facebook 在半年内面试中考过）
+  * 搜索旋转排序数组（Facebook、字节跳动、亚马逊在半年内面试常考）
+  * 搜索二维矩阵（亚马逊、微软、Facebook 在半年内面试中考过）
+  * 寻找旋转排序数组中的最小值（亚马逊、微软、字节跳动在半年内面试中考过）
+- 困难
+  * 单词接龙 II （微软、亚马逊、Facebook 在半年内面试中考过）
+  * 跳跃游戏 II （亚马逊、华为、字节跳动在半年内面试中考过）
 
 #### 三、训练场练习
-- 递归相关：
-    * [指令计算器设计]
-    * [赛程表问题]
-- 回溯相关：
-    * [单词转换]
+- 二分法相关：
+  * 分数统计
+- DFS、BFS 相关：
+  * 二叉树纵向逆序遍历
+  * 包裹容量问题
+  * IP 还原问题
+  * 任务处理问题
+  * 追赶朋友
+- 贪心相关：
+  * 饥饿的老鼠
 #### 四、心得及小结
 
 - 本周可以沉淀的代码
 
-详见学习笔记
 
 - 本周学习心得
 
-递归、回溯有点难以理解，都是参考别人的实现
 
 #### 五、疑问汇总
