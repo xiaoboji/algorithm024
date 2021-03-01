@@ -1,5 +1,5 @@
 #### 一、学习笔记
-- [深度+广度优先遍历](https://github.com/xiaoboji/algorithm024/tree/main/Week_04/note/DfsBfs.md)
+- [深度+广度优先遍历](https://github.com/xiaoboji/algorithm024/tree/main/Week_04/note/BfsDfs.md)
 - [贪心算法](https://github.com/xiaoboji/algorithm024/tree/main/Week_03/note/Greedy.md)
 - [二分查找](https://github.com/xiaoboji/algorithm024/tree/main/Week_03/note/BinarySearch.md)
 #### 二、本周作业
