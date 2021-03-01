@@ -5,7 +5,7 @@
 #### 二、本周作业
 
 - 简单：
-  * [柠檬水找零（亚马逊在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/blob/main/java/src/main/java/com/xiaoboji/problem/greedy/d_860/860.java)
+  * [柠檬水找零（亚马逊在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/blob/main/java/src/main/java/com/xiaoboji/problem/greedy/d_860/[860]柠檬水找零.java)
   * 买卖股票的最佳时机 II （亚马逊、字节跳动、微软在半年内面试中考过）
   * [分发饼干（亚马逊在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/tree/main/java/src/main/java/com/xiaoboji/problem/greedy/d_455/[455]分发饼干.java)
   * 模拟行走机器人
