@@ -2,9 +2,9 @@
 - [动态规划](https://github.com/xiaoboji/algorithm024/tree/main/Week_06/note/DynamicProgramming.md)
 #### 二、本周作业
 - 中等
-  * 最小路径和（亚马逊、高盛集团、谷歌在半年内面试中考过）
+  * [最小路径和（亚马逊、高盛集团、谷歌在半年内面试中考过）](https://github.com/xiaoboji/j-leetcode/blob/main/java/src/main/java/com/xiaoboji/problem/dynamic_programming/[64]最小路径和.java)
   * 解码方法（亚马逊、Facebook、字节跳动在半年内面试中考过）
-  * 最大正方形（华为、谷歌、字节跳动在半年内面试中考过）
+  * [最大正方形（华为、谷歌、字节跳动在半年内面试中考过）]((https://github.com/xiaoboji/j-leetcode/blob/main/java/src/main/java/com/xiaoboji/problem/dynamic_programming/[221]最大正方形.java))
   * 任务调度器（Facebook 在半年内面试中常考）
   * 回文子串（Facebook、苹果、字节跳动在半年内面试中考过）
 - 困难
